@@ -1,4 +1,17 @@
+<!--
+Note: Only use **NEW:** for entirely new prompt files, NOT for new additions/sections within existing prompts.
+-->
+
 ### Claude Code System Prompts Changelog
+
+# [2.0.47](https://github.com/Piebald-AI/claude-code-system-prompts/commit/62075a9489f7edb416970b9e67605c288ce562ac)
+
+- **NEW:** Agent prompt: Multi-Agent Planning Note - instructions for multi-agent planning when `CLAUDE_CODE_PLAN_V2_AGENT_COUNT` > 1
+- **NEW:** System reminder: Plan mode re-entry - sent when user re-enters Plan mode after exiting
+- Main system prompt: Added "NEVER propose changes to code you haven't read" instruction
+- Main system prompt: Added comprehensive "Avoid over-engineering" section with guidelines on simplicity
+- Enhanced plan mode reminder: Refactored variable names and simplified structure
+- Enhanced plan mode reminder: Fixed typo "Syntehsize" → "Synthesize", "alwasy" → "always"
 
 #### [2.0.46](https://github.com/Piebald-AI/claude-code-system-prompts/commit/3f9c346)
 
